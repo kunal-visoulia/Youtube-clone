@@ -30,7 +30,11 @@ function App() {
     <Provider store={store}>
       <div>
         <Header />
+<<<<<<< HEAD
         <RouterProvider router={appRouter} /> {/* here components change based on approuter*/}
+=======
+        <RouterProvider router={appRouter} />
+>>>>>>> d3907cd3ce0122bf73932904ad5a07a5a5bd6d5e
       </div>
     </Provider>
   );
