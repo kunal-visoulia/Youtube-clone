@@ -1,9 +1,24 @@
 import './App.css';
+import Header from './components/Header';
+import Body from './components/Body';
 
 function App() {
   return (
-   <p class="text-3xl font-bold">Namaste Kunal</p>
+    <>
+      <Header />
+      <Body />
+    </>
   );
 }
 
 export default App;
+
+/*
+Header
+Body
+    SideNav
+    MainContainer
+        Buttons List
+        VideoContainer
+            VideoCards
+*/
