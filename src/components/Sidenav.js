@@ -1,7 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import { Link } from "react-router-dom";
 
 const Sidenav = () => {
+  const isSideNavOpen = useSelector(store => store.app.isSideNavOpen); //only subsrcibe to specific part of store
+
+  if(!isSideNavOpen) return null;
+
   return (
     <div className="p-5 shadow-lg w-48">
       <ul>

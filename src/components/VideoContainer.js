@@ -4,7 +4,7 @@ const list = ['v1', 'v2', 'v2', 'v2', 'v2', 'v2', 'v2'];
 
 const VideoContainer = () => {
     return (
-        <div class="flex"> {list.map((data) => <VideoCard name={data} key={data} />)}</div>
+        <div className="flex"> {list.map((data) => <VideoCard name={data} key={data} />)}</div>
     )
 }
 
