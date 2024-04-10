@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidenav from './Sidenav'
-import MainContainer from './MainContainer'
+import { Outlet } from "react-router-dom";
 
 const Body = () => {
   return (
     <div className="flex">
       <Sidenav />
-      <MainContainer />
+      <Outlet /> {/* show wither main container or watch page */}
     </div>
   )
 }
